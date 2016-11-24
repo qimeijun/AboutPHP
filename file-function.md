@@ -81,3 +81,4 @@ if (!$fp) {
 while (false != ($char = fgetc($fp))) {
     echo $char . '<br/>';
 }
+ 
