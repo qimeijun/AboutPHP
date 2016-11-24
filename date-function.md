@@ -32,7 +32,7 @@ b、在程序开始时添加`date_default_timezone_set('Asia/Shanghai')`即可�
 
 5、`getdate()` 获取当前时间，返回一个数组格式：`array(11) { ["seconds"]=> int(43) ["minutes"]=> int(6) ["hours"]=> int(16) ["mday"]=> int(15) ["wday"]=> int(2) ["mon"]=> int(11) ["year"]=> int(2016) ["yday"]=> int(319) ["weekday"]=> string(7) "Tuesday" ["month"]=> string(8) "November" [0]=> int(1479197203) }`
 
-6、`checkdate(integer month, integer day, integer year)` 检查日期是否合法
+6、`checkdate(integer month, integer day, integer year)` 检查日期是否合法 
 ```
 <?
 if(checkdate(2,29,1980))
